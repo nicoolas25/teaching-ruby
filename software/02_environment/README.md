@@ -14,7 +14,7 @@ The first step is to sign up for a free account on Cloud9. Of course,
 no credit card is required. Once it is done, you should be able to access
 your _cloud9 dashboard_.
 
-![Dashboard](/nicoolas25/teaching-ruby/master/02_environment/dashboard.png?raw=true "Dashboard")
+![Dashboard](dashboard.png "Dashboard")
 
 ## Creating a workspace
 
