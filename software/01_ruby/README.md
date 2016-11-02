@@ -1,7 +1,8 @@
 # Meeting Ruby
 
 To discover a programming language, you have to understand what are its
-caracteristics. On the Ruby website, the language introduce itself like this:
+caracteristics. On the [Ruby website][ruby-website], the language introduce
+itself like this:
 
 > A dynamic, open source programming language with a focus on simplicity and
 > productivity. It has an elegant syntax that is natural to read and easy to
@@ -39,6 +40,21 @@ spot which gene is doing what and change it for as long as you want like getting
 blue eyes just for a date. A dynamic language give you the keys to do that kind
 of things, at the program's level...
 
+## Being interpreted
+
+Ruby is an _interpreted language_. It means that the line between compile-time
+and runtime is blured. In practice it means that you can _run_ the Ruby code
+without intermediate steps.
+
+On the other hand, there is compiled languages where you have to compile your
+source code into a _binary_ and then run that binary, not your source code. An
+example of such a language is [C][c-lang].
+
+## Other caracteristics of Ruby
+
+Ruby is also an object-oriented and a dynamically-typed language but we'll cover
+this aspects later.
+
 ## Writing Ruby programs, what you'll need
 
 Code is written, mostly on computers. You'll need a _code editor_ to write code
@@ -58,3 +74,6 @@ of the Ruby programming language:
 
 A code editor and a Ruby implementation are the two elements you need to start.
 In the next chapter, we'll see what are the options to get those two things...
+
+[C]: https://en.wikipedia.org/wiki/C_(programming_language)
+[ruby-website]: https://www.ruby-lang.org/
