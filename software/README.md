@@ -60,6 +60,8 @@ expressing the same computer instructions.
 
 **There are many languages**
 
+_A programming language is just a tool._
+
 A programming language abstracts the low-level machine instructions. There is
 different ways of doing that same thing. Each programming language has its own
 caracteristics: _paradigms_, _syntax_, _type system_, _compilation_ /
@@ -73,10 +75,10 @@ you'll prefer the truck if you have to move out your stuff.
 
 In this tutorial, I'll teach you the basic of driving. I'll use a classic car,
 the Ruby programming language. You'll understand enough driving to be able
-to teach yourself how to drive other cars, and to use other programming
+to teach yourself how to drive other cars, to use other programming
 languages.
 
-## But how do I start?
+## But really, how do I start?
 
 We'll start by looking at the [Ruby programming language][ruby]. You can do
 a lot with Ruby and it is very popular in web development. It'll be a good
