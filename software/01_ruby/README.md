@@ -75,5 +75,5 @@ of the Ruby programming language:
 A code editor and a Ruby implementation are the two elements you need to start.
 In the next chapter, we'll see what are the options to get those two things...
 
-[C]: https://en.wikipedia.org/wiki/C_(programming_language)
+[c-lang]: https://en.wikipedia.org/wiki/C_(programming_language)
 [ruby-website]: https://www.ruby-lang.org/
