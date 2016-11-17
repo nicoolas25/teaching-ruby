@@ -16,6 +16,8 @@ your _cloud9 dashboard_ (see the picture below).
 
 ![Dashboard](dashboard.png "Dashboard")
 
+> virtual machine, integrated development environment
+
 ## Creating a workspace
 
 Now, you'll need to create a _workspace_ with the following settings:
@@ -61,18 +63,76 @@ content of the file. _Source-codes are just plain text files._
 If you change the text in the `README.md` tab and save it (`Ctrl-S`) you can
 check that your changes are visible in the preview tab: `[P] README.md`.
 
+> code editor, sublime text, vim, emacs
+
 ### The terminal tab (3)
+
+This [terminal][terminal] tab is probably the most useful of all, it allows you to
+operations like installing new software, running Ruby code, finding files, etc.
+
+I'll always explain when we have to use it, why, and what we'll be doing exacly.
+If you're curious, know that this terminal is a running program like the one
+you'll write soon. This program is called [bash][bash] and there is tons of
+resources online to teach you more about it!
+
+> shell, command line interface, terminal
 
 ## Installing Ruby
 
+To install Ruby, we'll use a special repository which is not enabled by default.
+A repository, in the context of installing new software, is like a directory
+telling your computer what software is provided.
+
+The first step is to add a repository containing a fairly up to date version of
+Ruby. To do so we'll be using the terminal to:
+
+* Add the repository: `sudo add-apt-repository ppa:brightbox/ruby-ng`
+* Update the software directories: `sudo apt-get update`
+
 ![Add the source for the latest Ruby](add-ppa.png "Add the source for the latest Ruby")
+
+* Install Ruby: `sudo apt-get install ruby`
 
 ![Install Ruby](install-ruby.png "Install Ruby")
 
+### What did you just do (optional)
+
+You just copy / paste some cryptic commands from this tutorial and you don't
+understand what happened? It's not that important right now so you can skip this
+paragraph if you want.
+
+Here are the _commands_ you've seen: `sudo`, `add-apt-repository`, and `apt-get`.
+The other parts like `install ruby`, `update`, and `ppa:brightbox/ruby-ng` are
+the _arguments_ of those commands.
+
+The `sudo` command is for `SUperuser DO`. It does something as _superuser_. Ok,
+what is a superuser then? A machine can have different users: maybe your son,
+your husband or a guest. Not all of them can do everything on the computer. For
+instance, you may not want your guest installing new software without asking.
+A superuser is someone that can access all the files of the computer, install
+new software, etc.
+
+The `add-apt-repository` is for adding a new source for finding and installing
+software. After adding such a source, you have to update the list of available
+software to install. It's why the `apt-get update` came right after it.
+
+Finally `apt-get install ruby` is asking the `apt-get` program to install Ruby.
+Here `ruby` is the name of a software _package_ found in the repositories' lists.
+
+> package management system, linux sudo, ubuntu ppa
+
 ## Check that everything work
+
+One last step to be sure that your environment is setup. We'll ask Ruby for its
+version with the command: `ruby --version`. If everything went as expected, Ruby
+should answer you that you have the vestion `2.3.x`.
+
+If anything seems a bit different, just ask someone around!
 
 ![Check Ruby version](check-ruby-version.png "Check Ruby version")
 
 [sublime]: https://www.sublimetext.com/
 [dl-ruby]: https://www.ruby-lang.org/en/downloads/
 [cloud9]: https://c9.io/
+[bash]: 
+[temrinal]: 

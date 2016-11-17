@@ -38,4 +38,9 @@ Thus, the track is composed of two different parts:
 1. Learn what software development is.
 2. Learn what the web is and how you can write software for it.
 
+## Notes
+
+This is a work in progress, a lot of pieces are moving. You can help them find a
+better by getting in touch with me about it!
+
 [why-software]: https://henrikwarne.com/2014/12/08/5-reasons-why-software-developer-is-a-great-career-choice/
