@@ -134,5 +134,5 @@ If anything seems a bit different, just ask someone around!
 [sublime]: https://www.sublimetext.com/
 [dl-ruby]: https://www.ruby-lang.org/en/downloads/
 [cloud9]: https://c9.io/
-[bash]: 
-[temrinal]: 
+[bash]: TODO
+[temrinal]: TODO
