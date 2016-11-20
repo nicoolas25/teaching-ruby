@@ -152,5 +152,9 @@ You'll have a lot of errors, especially while you're discovering Ruby's syntax.
 Try to fully read and understand them, it will be of a great help. When you face
 an error that you don't understand, you should ask arround.
 
+## Side effects
+
+Some expressions have _side effects_.
+
 [ruby-iso]: http://www.ipa.go.jp/files/000011432.pdf
 [repl]: https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop
