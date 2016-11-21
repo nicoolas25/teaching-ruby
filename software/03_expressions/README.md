@@ -154,7 +154,36 @@ an error that you don't understand, you should ask arround.
 
 ## Side effects
 
-Some expressions have _side effects_.
+Some expressions have _side effects_. They are fundamental to build
+useful programs especially web applications. Eveluating expression can
+produce more than just a resulting value, it can produce side effects.
+
+Side effects are diverses but most of the time, its about interacting
+with something else. For instance, lets try to type `puts "Hello"` in
+IRB...
+
+```
+2.3.0 008 > puts "Hello"
+Hello
+=> nil
+```
+
+In this example, something different happened. The result of the expression
+is, as always, prefixed with: `=>`. In this case, this result is `nil` which
+means out of habit than the expression returns _nothing_. Something new is
+here: Between the expression and its resulting value, a line containing
+`"Hello"` appeared on the screen! The evaluation of the expression did produce
+a value **and** a _side effect_.
+
+Side effects can be a lot of things. In our example it was writing something
+on the _standard output_. On some other case, side effect are interaction with
+other systems, file modifications, web searches, etc.
+
+## Conclusion
+
+By combining and organizing expressions, with or without side effects, we can
+elaborate programs as complex as the ones used everyday around the world. In
+the next chapter, we'll see different tools to organise code.
 
 [ruby-iso]: http://www.ipa.go.jp/files/000011432.pdf
 [repl]: https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop
